@@ -1,0 +1,16 @@
+<ivy-module version="2.0">
+  <info organisation="cukes.info" module="java-example"/>
+  <dependencies>
+    <dependency org="junit" name="junit" rev="4.12"/>
+    <dependency org="org.hamcrest" name="hamcrest-junit" rev="2.0.0.0" />
+    <dependency org="org.hamcrest" name="java-hamcrest" rev="2.0.0.0" />
+    
+    <dependency org="org.seleniumhq.selenium" name="selenium-java" rev="2.48.1" />
+    <dependency org="org.seleniumhq.selenium" name="selenium-api" rev="2.48.1" />
+    <dependency org="org.seleniumhq.selenium" name="selenium-server" rev="2.48.1" />
+    <dependency org="org.seleniumhq.selenium" name="selenium-remote-driver" rev="2.48.1" />
+    <dependency org="org.seleniumhq.selenium" name="selenium-support" rev="2.48.1" />
+    <dependency org="org.seleniumhq.selenium" name="selenium-firefox-driver" rev="2.48.1" />
+  </dependencies>
+</ivy-module>
+
